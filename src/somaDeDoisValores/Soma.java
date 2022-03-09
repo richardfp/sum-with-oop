@@ -56,7 +56,12 @@ public class Soma {
 		//receber os valores//
 		String valor1 = JOptionPane.showInputDialog("Digite o valor 1");
 		String valor2 = JOptionPane.showInputDialog("Digite o Valor 2");
+		//Conversão//
+		converterValoresParaInteiro(valor1, valor2);
 	}
-	
+	private void converterValoresParaInteiro(String valor1, String valor2) {
+		this.setValor1(Integer.parseInt(valor1));
+		this.setValor2(Integer.parseInt(valor2));
+	}
 
 }
