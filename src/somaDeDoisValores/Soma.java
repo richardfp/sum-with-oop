@@ -48,6 +48,7 @@ public class Soma {
 	//Métodos da Classe//
 	
 	public void somaValores() {
+		receberValoresEConverterParaInteiros();
 		this.setResultado(this.getValor1() + this.getValor2());
 	
 	} 
